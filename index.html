@@ -685,7 +685,7 @@ nav.scrolled{box-shadow:0 10px 32px rgba(27,65,54,.13)}
         <p><small>Email</small><span id="mailtxt">amantariqa344@gmail.com</span></p>
         <p><small>Location</small>Muzaffarabad, Azad Jammu and Kashmir</p>
       </div>
-      <form id="f" class="contact-form" action="#" method="post">
+      <form id="f" class="contact-form" data-endpoint="/api/send-email" method="post">
         <input id="n" name="name" type="text" placeholder="Your name" aria-label="Your name" autocomplete="name" maxlength="120" required>
         <input id="e" name="email" type="email" placeholder="Your email" aria-label="Your email" autocomplete="email" maxlength="254" required>
         <textarea id="m" name="message" placeholder="Your message" aria-label="Your message" maxlength="5000" required></textarea>

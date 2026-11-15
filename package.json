@@ -1,0 +1,16 @@
+{
+  "name": "portfolio-site-v1",
+  "version": "1.0.0",
+  "description": "Aman Tariq portfolio site",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "resend": "^3.2.0"
+  },
+  "devDependencies": {
+    "vercel": "^33.0.0"
+  }
+}
